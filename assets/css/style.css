@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700;800&display=swap");
+.navbar {
+  background-color: #e52b2d;
+}
+
+.navbar .container-fluid .navbar-brand {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.navbar .container-fluid .navbar-brand img {
+  width: 200px;
+}
+
+.navbar .container-fluid .navbar-brand h1 {
+  font-size: 1.2rem;
+  font-family: 'Lexend', sans-serif;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.jumbotron {
+  background: #fff url("../img/gambar (3).jpg") center no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .iniBackgroundHitam {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.jumbotron .iniBackgroundHitam .container .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 0;
+}
+
+.jumbotron .iniBackgroundHitam .container .wrapper .left {
+  display: flex;
+}
+
+.jumbotron .iniBackgroundHitam .container .wrapper .left .text h1 {
+  font-family: 'Lexend', sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+
+.jumbotron .iniBackgroundHitam .container .wrapper .left .text .text1 {
+  color: #e52b2d;
+}
+
+.jumbotron .iniBackgroundHitam .container .wrapper .left .text .text2 {
+  color: #fff;
+}
+
+.jumbotron .iniBackgroundHitam .container .wrapper .left .garis {
+  border-right: 10px solid #fff;
+  margin-left: 3rem;
+}
+
+.jumbotron .iniBackgroundHitam .container .wrapper .images img {
+  width: 100%;
+}
+
+.album {
+  padding: 144px 0;
+}
+
+.album .container .wrapperAlbum {
+  display: flex;
+  flex-direction: column;
+}
+
+.album .container .wrapperAlbum .headerTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.album .container .wrapperAlbum .headerTitle h1 {
+  font-family: 'Lexend', sans-serif;
+  font-weight: 700;
+  margin: .8rem;
+}
+
+.album .container .wrapperAlbum .headerTitle .garis {
+  border: 3px solid #e52b2d;
+  width: 200px;
+}
+
+.album .container .wrapperAlbum .mainCard {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.album .container .wrapperAlbum .mainCard .card {
+  max-width: 400px;
+  margin: 1rem 0;
+  background-color: #e52b2d;
+  border: none;
+  border-radius: 16px;
+}
+
+.album .container .wrapperAlbum .mainCard .card img {
+  border-radius: 16px 16px 0px 0px;
+}
+
+.album .container .wrapperAlbum .mainCard .card .description {
+  padding: 2rem 1rem 4rem 1rem;
+  font-family: 'Lexend', sans-serif;
+  color: #fff;
+}
+
+.album .container .wrapperAlbum .mainCard .card .description .judulCard {
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.album .container .wrapperAlbum .mainCard .card .description p {
+  margin: 0;
+}
+
+.katakata .forBackground {
+  background: #fff url("../img/indonesia (1).jpg") center no-repeat;
+  background-size: cover;
+}
+
+.katakata .forBackground .colorBackground {
+  background-image: linear-gradient(to bottom, rgba(35, 31, 32, 0.4), rgba(229, 43, 45, 0.5));
+}
+
+.katakata .forBackground .colorBackground .container .images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8rem 0;
+}
+
+.katakata .forBackground .colorBackground .container .images img {
+  width: 50%;
+}
+/*# sourceMappingURL=style.css.map */

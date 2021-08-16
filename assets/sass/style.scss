@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700;800&display=swap');
+
+
+.navbar {
+    background-color: #e52b2d;
+    .container-fluid {
+        .navbar-brand {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1rem 0;
+            img {
+                width: 200px;
+            }
+            h1 {
+                font-size: 1.2rem;
+                font-family: 'Lexend', sans-serif;
+                color: #fff;
+                font-weight: 700;
+                text-transform: uppercase; 
+            }
+        }
+    }
+}
+
+
+.jumbotron {
+    background: #fff url("../img/gambar\ \(3\).jpg") center no-repeat;
+    background-size: cover;
+    .iniBackgroundHitam {
+        background-color: rgba(0, 0, 0, 0.4);
+        .container {
+            .wrapper {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 4rem 0;
+                .left {
+                    display: flex;
+                    .text {
+                        h1 {
+                            font-family: 'Lexend', sans-serif;
+                            font-weight: 700;
+                            font-size: 3.5rem;
+                        }
+                        .text1 {
+                            color: #e52b2d;
+                        }
+                        .text2 {
+                            color: #fff;
+                        }
+                    }
+                    .garis {
+                        border-right: 10px solid #fff;
+                        margin-left: 3rem;
+                    }
+                }
+                .images {
+                    img {
+                        width:100%
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+.album {
+    padding: 144px 0;
+    .container {
+        .wrapperAlbum {
+            display: flex;
+            flex-direction: column;
+            .headerTitle {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 4rem;
+
+                h1 {
+                    font-family: 'Lexend', sans-serif;
+                    font-weight: 700;
+                    margin: .8rem;
+                }
+
+                .garis {
+                    border: 3px solid #e52b2d;
+                    width: 200px;
+                }
+            }
+            .mainCard {
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                .card {
+                    max-width: 400px;
+                    margin: 1rem 0;
+                    background-color: #e52b2d;
+                    border: none;
+                    border-radius: 16px;
+                    img {
+                    border-radius: 16px 16px 0px 0px;
+
+                    }
+                    .description {
+                        padding: 2rem 1rem 4rem 1rem;
+                        font-family: 'Lexend', sans-serif;
+                        color: #fff;
+                        .judulCard {
+                            font-weight:600;
+                            font-size:2rem;
+                            margin-bottom:2rem;
+                        }
+                        p {
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.katakata {
+
+    .forBackground {
+        background: #fff url("../img/indonesia\ \(1\).jpg") center no-repeat;
+        background-size:cover;
+        .colorBackground {
+            background-image: linear-gradient(to bottom, rgba(35,31,32,0.4), rgba(229,43,45,0.5));
+
+            .container {
+                .images {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding : 8rem 0;
+                    img {
+                        width:50%;
+                    }
+                }
+            }
+        }
+    }
+}
